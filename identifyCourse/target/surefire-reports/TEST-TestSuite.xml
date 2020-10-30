@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="515.583" tests="22" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Sunit Sinha\eclipse-workspace\identifyCourse\target\test-classes;C:\Users\Sunit Sinha\eclipse-workspace\identifyCourse\target\classes;C:\Users\Sunit Sinha\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sunit Sinha\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Sunit Sinha\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Sunit Sinha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Sunit Sinha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Sunit Sinha\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Sunit Sinha\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sunit Sinha\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Sunit Sinha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Sunit Sinha\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Sunit Sinha\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\Sunit Sinha\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Sunit Sinha\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.0.1\selenium-support-3.0.1.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sunit Sinha\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sunit Sinha\.m2\repository\com\squareup\okhttp3\okhttp\3.0.0-RC1\okhttp-3.0.0-RC1.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Sunit Sinha\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sunit Sinha\AppData\Local\Temp\surefire6845414374600047900\surefirebooter7728576644243424895.jar C:\Users\Sunit Sinha\AppData\Local\Temp\surefire6845414374600047900 2020-10-28T17-59-07_126-jvmRun1 surefire9032617105049317192tmp surefire_05391680478987742982tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sunit Sinha\eclipse-workspace\identifyCourse\target\test-classes;C:\Users\Sunit Sinha\eclipse-workspace\identifyCourse\target\classes;C:\Users\Sunit Sinha\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sunit Sinha\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Sunit Sinha\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Sunit Sinha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Sunit Sinha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Sunit Sinha\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Sunit Sinha\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sunit Sinha\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Sunit Sinha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Sunit Sinha\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Sunit Sinha\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\Sunit Sinha\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Sunit Sinha\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.0.1\selenium-support-3.0.1.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sunit Sinha\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sunit Sinha\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sunit Sinha\.m2\repository\com\squareup\okhttp3\okhttp\3.0.0-RC1\okhttp-3.0.0-RC1.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Sunit Sinha\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Sunit Sinha\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Sunit Sinha\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sunit Sinha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="basedir" value="C:\Users\Sunit Sinha\eclipse-workspace\identifyCourse"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sunit Sinha\AppData\Local\Temp\surefire6845414374600047900\surefirebooter7728576644243424895.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="Sunit Sinha"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Sunit Sinha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SUNITS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\Sunit Sinha\eclipse-workspace\identifyCourse"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_261/bin;C:\Program Files\Java\jdk1.8.0_261/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Process Lasso\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-10.0.2\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testOne[{Language=English, Course Name=Language Learning, Level=All Levels, Browser=opera}](1)" classname="testScenario.courseTest" time="35.732">
+    <system-out><![CDATA[{Course Name=Web Development, Browser=firefox}
+{Course Name=Web Design, Browser=opera}
+{Language=English, Course Name=Language Learning, Level=All Levels, Browser=opera}
+{Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=sinha, people=Just myself}
+{Language=Español, Course Name=Language Learning, Level=All Levels, Browser=chrome}
+{Language=Português, Course Name=Language Learning, Level=All Levels, Browser=chrome}
+{Company size=1–199, First Name=sunit , Phone=, Work Email=asdf@kiit.com, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=sinha, people=Just myself}
+{Language=Türkçe, Course Name=Language Learning, Level=All Levels, Browser=chrome}
+{Language=English, Course Name=Language Learning, Level=Beginner, Browser=firefox}
+{Company size=1–199, First Name=, Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=sinha, people=Just myself}
+{Language=Español, Course Name=Language Learning, Level=Beginner, Browser=firefox}
+{Language=Português, Course Name=Language Learning, Level=Beginner, Browser=firefox}
+{Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=, people=Just myself}
+{Language=Deutsch, Course Name=Language Learning, Level=Beginner, Browser=firefox}
+{Language=English, Course Name=Language Learning, Level=Intermediate, Browser=opera}
+{Language=Español, Course Name=Language Learning, Level=Intermediate, Browser=opera}
+{Language=Português, Course Name=Language Learning, Level=Intermediate, Browser=opera}
+{Language=Deutsch, Course Name=Language Learning, Level=Intermediate, Browser=opera}
+{Language=English, Course Name=Language Learning, Level=Expert, Browser=chrome}
+{Language=Español, Course Name=Language Learning, Level=Expert, Browser=chrome}
+{Language=Português, Course Name=Language Learning, Level=Expert, Browser=chrome}
+{Language=Türkçe, Course Name=Language Learning, Level=Expert, Browser=chrome}
+Total results for applied filter i.e All Levels and English : 9,439 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 5:59:08 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 28, 2020 5:59:08 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Oct 28, 2020 5:59:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 28, 2020 5:59:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 28, 2020 5:59:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=Español, Course Name=Language Learning, Level=All Levels, Browser=chrome}](2)" classname="testScenario.courseTest" time="29.02">
+    <system-out><![CDATA[Total results for applied filter i.e All Levels and Español : 241 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 5:59:47 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 28, 2020 5:59:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=Português, Course Name=Language Learning, Level=All Levels, Browser=chrome}](3)" classname="testScenario.courseTest" time="31.733">
+    <system-out><![CDATA[Total results for applied filter i.e All Levels and Português : 242 results
+]]></system-out>
+  </testcase>
+  <testcase name="testOne[{Language=Türkçe, Course Name=Language Learning, Level=All Levels, Browser=chrome}](4)" classname="testScenario.courseTest" time="18.635">
+    <system-out><![CDATA[Total results for applied filter i.e All Levels and Türkçe : 196 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:01:01 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 28, 2020 6:01:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=English, Course Name=Language Learning, Level=Beginner, Browser=firefox}](5)" classname="testScenario.courseTest" time="15.183">
+    <system-out><![CDATA[Total results for applied filter i.e Beginner and English : 7,077 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:01:39 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 28, 2020 6:01:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=Español, Course Name=Language Learning, Level=Beginner, Browser=firefox}](6)" classname="testScenario.courseTest" time="34.544">
+    <system-out><![CDATA[Total results for applied filter i.e Beginner and Español : 229 results
+]]></system-out>
+  </testcase>
+  <testcase name="testOne[{Language=Português, Course Name=Language Learning, Level=Beginner, Browser=firefox}](7)" classname="testScenario.courseTest" time="31.509">
+    <system-out><![CDATA[Total results for applied filter i.e Beginner and Português : 244 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:02:29 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Oct 28, 2020 6:02:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=Deutsch, Course Name=Language Learning, Level=Beginner, Browser=firefox}](8)" classname="testScenario.courseTest" time="31.659">
+    <system-out><![CDATA[Total results for applied filter i.e Beginner and Deutsch : 186 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:03:00 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Oct 28, 2020 6:03:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=English, Course Name=Language Learning, Level=Intermediate, Browser=opera}](9)" classname="testScenario.courseTest" time="30.253">
+    <system-out><![CDATA[Total results for applied filter i.e Intermediate and English : 2,674 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:03:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=Español, Course Name=Language Learning, Level=Intermediate, Browser=opera}](10)" classname="testScenario.courseTest" time="30.733">
+    <system-out><![CDATA[Total results for applied filter i.e Intermediate and Español : 96 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:04:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=Português, Course Name=Language Learning, Level=Intermediate, Browser=opera}](11)" classname="testScenario.courseTest" time="31.106">
+    <system-out><![CDATA[Total results for applied filter i.e Intermediate and Português : 64 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:04:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=Deutsch, Course Name=Language Learning, Level=Intermediate, Browser=opera}](12)" classname="testScenario.courseTest" time="30.23">
+    <system-out><![CDATA[Total results for applied filter i.e Intermediate and Deutsch : 62 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:05:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=English, Course Name=Language Learning, Level=Expert, Browser=chrome}](13)" classname="testScenario.courseTest" time="32.052">
+    <system-out><![CDATA[Total results for applied filter i.e Expert and English : 388 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:05:34 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 28, 2020 6:05:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=Español, Course Name=Language Learning, Level=Expert, Browser=chrome}](14)" classname="testScenario.courseTest" time="31.845">
+    <system-out><![CDATA[Total results for applied filter i.e Expert and Español : 22 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:06:06 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 28, 2020 6:06:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=Português, Course Name=Language Learning, Level=Expert, Browser=chrome}](15)" classname="testScenario.courseTest" time="31.582">
+    <system-out><![CDATA[Total results for applied filter i.e Expert and Português : 10 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:06:38 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 28, 2020 6:06:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Language=Türkçe, Course Name=Language Learning, Level=Expert, Browser=chrome}](16)" classname="testScenario.courseTest" time="32.943">
+    <system-out><![CDATA[Total results for applied filter i.e Expert and Türkçe : 4 results
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:07:10 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 28, 2020 6:07:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Course Name=Web Development, Browser=firefox}](1)" classname="testScenario.WebDevelopment" time="1.211">
+    <system-out><![CDATA[Topic 1:The Complete React Developer Course (w/ Hooks and Redux)
+Topic 2:Build an app with ASPNET Core and Angular from scratch
+Total hrs for Topic 1:39 total hours
+Total hrs for Topic 2:57.5 total hours
+Topic 1:Rating: 4.7 out of 5
+Topic 2:Rating: 4.6 out of 5
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 5:59:44 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Course Name=Web Design, Browser=opera}](2)" classname="testScenario.WebDevelopment" time="2.605">
+    <system-out><![CDATA[Topic 1:Wordpress for Beginners - Master Wordpress Quickly
+Topic 2:WordPress for Beginners: Create a Website Step by Step
+Total hrs for Topic 1:9 total hours
+Total hrs for Topic 2:5.5 total hours
+Topic 1:Rating: 4.5 out of 5
+Topic 2:Rating: 4.7 out of 5
+]]></system-out>
+    <system-err><![CDATA[Oct 28, 2020 6:00:16 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 28, 2020 6:00:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TestOne[{Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=sinha, people=Just myself}](1)" classname="testScenario.FormTest" time="1.355">
+    <system-err><![CDATA[Oct 28, 2020 5:59:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 28, 2020 5:59:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="TestOne[{Company size=1–199, First Name=sunit , Phone=, Work Email=asdf@kiit.com, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=sinha, people=Just myself}](2)" classname="testScenario.FormTest" time="13.185">
+    <failure message="timeout: Timed out receiving message from renderer: 60.000&#10;  (Session info: chrome=86.0.4240.111)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-7H3VE7A9&apos;, ip: &apos;192.168.29.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\SUNITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:15388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9cff22605d94e26e51f4336d906...}&#10;Session ID: 9cff22605d94e26e51f4336d9061d765&#10;*** Element info: {Using=xpath, value=//input[@name=&apos;FirstName&apos;]}" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+timeout: Timed out receiving message from renderer: 60.000
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7H3VE7A9', ip: '192.168.29.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\SUNITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:15388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9cff22605d94e26e51f4336d906...}
+Session ID: 9cff22605d94e26e51f4336d9061d765
+*** Element info: {Using=xpath, value=//input[@name='FirstName']}
+	at testScenario.FormTest.TestOne(FormTest.java:34)
+]]></failure>
+    <system-err><![CDATA[Oct 28, 2020 6:00:47 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 28, 2020 6:00:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TestOne[{Company size=1–199, First Name=, Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=sinha, people=Just myself}](3)" classname="testScenario.FormTest" time="19.706">
+    <system-err><![CDATA[Oct 28, 2020 6:01:19 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Oct 28, 2020 6:01:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TestOne[{Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=, people=Just myself}](4)" classname="testScenario.FormTest" time="21.42">
+    <system-err><![CDATA[Oct 28, 2020 6:01:54 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Oct 28, 2020 6:01:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

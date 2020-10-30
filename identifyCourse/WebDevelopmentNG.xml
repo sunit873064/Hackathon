@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Development">
+  <test name="WebDevelopmentTest">
+    <classes>
+      <class name="testScenario.WebDevelopment"/>
+    </classes>
+  </test> <!-- WebDevelopmentTest -->
+</suite> <!-- Web Development -->

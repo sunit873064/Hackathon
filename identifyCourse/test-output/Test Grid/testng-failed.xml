@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Grid]" parallel="methods">
+  <test name="Test Node1(failed)" parallel="methods">
+    <classes>
+      <class name="testScenario.WebDevelopment">
+        <methods>
+          <include name="testOne" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- testScenario.WebDevelopment -->
+      <class name="testScenario.courseTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testScenario.courseTest -->
+    </classes>
+  </test> <!-- Test Node1(failed) -->
+</suite> <!-- Failed suite [Test Grid] -->

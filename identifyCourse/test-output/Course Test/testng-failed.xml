@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Course Test]">
+  <test name="CourseTest(failed)">
+    <classes>
+      <class name="testScenario.courseTest">
+        <methods>
+          <include name="testOne" invocation-numbers="9 10"/>
+          <include name="endReport"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testScenario.courseTest -->
+    </classes>
+  </test> <!-- CourseTest(failed) -->
+</suite> <!-- Failed suite [Course Test] -->

@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Multiple_Test_Suites">
+              <span class="suite-name border-failed">Multiple Test Suites</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Multiple_Test_Suites">
+                    <span>C:\Users\Sunit Sinha\eclipse-workspace\identifyCourse\MultiRun.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Multiple_Test_Suites">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Multiple_Test_Suites">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Multiple_Test_Suites">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Multiple_Test_Suites">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Multiple_Test_Suites">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Multiple_Test_Suites">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 1 failed,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Multiple_Test_Suites" class="hide-methods failed suite-Multiple_Test_Suites"> (hide)</a> <!-- hide-methods failed suite-Multiple_Test_Suites -->
+                      <a href="#" panel-name="suite-Multiple_Test_Suites" class="show-methods failed suite-Multiple_Test_Suites"> (show)</a> <!-- show-methods failed suite-Multiple_Test_Suites -->
+                    </span>
+                    <div class="method-list-content failed suite-Multiple_Test_Suites">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.FormTest" hash-for-method="TestOne({Company size=1–199, First Name=sunit , Phone=, Work Email=asdf@kiit.com, Company Name=czt, Job Titl...)">TestOne({Company size=1–199, First Name=sunit , Phone=, Work Email=asdf@kiit.com, Company Name=czt, Job Titl...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Multiple_Test_Suites -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Multiple_Test_Suites" class="hide-methods passed suite-Multiple_Test_Suites"> (hide)</a> <!-- hide-methods passed suite-Multiple_Test_Suites -->
+                      <a href="#" panel-name="suite-Multiple_Test_Suites" class="show-methods passed suite-Multiple_Test_Suites"> (show)</a> <!-- show-methods passed suite-Multiple_Test_Suites -->
+                    </span>
+                    <div class="method-list-content passed suite-Multiple_Test_Suites">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.FormTest" hash-for-method="TestOne({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt...)">TestOne({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.FormTest" hash-for-method="TestOne({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=, Company Name=czt, Job Title=a...)">TestOne({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=, Company Name=czt, Job Title=a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.FormTest" hash-for-method="TestOne({Company size=1–199, First Name=, Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job ...)">TestOne({Company size=1–199, First Name=, Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.WebDevelopment" hash-for-method="testOne({Course Name=Web Design, Browser=opera})">testOne({Course Name=Web Design, Browser=opera})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Türkçe, Course Name=Language Learning, Level=All Levels, Browser=chrome})">testOne({Language=Türkçe, Course Name=Language Learning, Level=All Levels, Browser=chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=English, Course Name=Language Learning, Level=Expert, Browser=chrome})">testOne({Language=English, Course Name=Language Learning, Level=Expert, Browser=chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Español, Course Name=Language Learning, Level=Intermediate, Browser=opera})">testOne({Language=Español, Course Name=Language Learning, Level=Intermediate, Browser=opera})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Deutsch, Course Name=Language Learning, Level=Intermediate, Browser=opera})">testOne({Language=Deutsch, Course Name=Language Learning, Level=Intermediate, Browser=opera})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Español, Course Name=Language Learning, Level=Expert, Browser=chrome})">testOne({Language=Español, Course Name=Language Learning, Level=Expert, Browser=chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=English, Course Name=Language Learning, Level=Intermediate, Browser=opera})">testOne({Language=English, Course Name=Language Learning, Level=Intermediate, Browser=opera})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=English, Course Name=Language Learning, Level=All Levels, Browser=opera})">testOne({Language=English, Course Name=Language Learning, Level=All Levels, Browser=opera})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Español, Course Name=Language Learning, Level=All Levels, Browser=chrome})">testOne({Language=Español, Course Name=Language Learning, Level=All Levels, Browser=chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Português, Course Name=Language Learning, Level=All Levels, Browser=chrome})">testOne({Language=Português, Course Name=Language Learning, Level=All Levels, Browser=chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Português, Course Name=Language Learning, Level=Beginner, Browser=firefox})">testOne({Language=Português, Course Name=Language Learning, Level=Beginner, Browser=firefox})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Español, Course Name=Language Learning, Level=Beginner, Browser=firefox})">testOne({Language=Español, Course Name=Language Learning, Level=Beginner, Browser=firefox})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Türkçe, Course Name=Language Learning, Level=Expert, Browser=chrome})">testOne({Language=Türkçe, Course Name=Language Learning, Level=Expert, Browser=chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.WebDevelopment" hash-for-method="testOne({Course Name=Web Development, Browser=firefox})">testOne({Course Name=Web Development, Browser=firefox})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Português, Course Name=Language Learning, Level=Expert, Browser=chrome})">testOne({Language=Português, Course Name=Language Learning, Level=Expert, Browser=chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=English, Course Name=Language Learning, Level=Beginner, Browser=firefox})">testOne({Language=English, Course Name=Language Learning, Level=Beginner, Browser=firefox})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Deutsch, Course Name=Language Learning, Level=Beginner, Browser=firefox})">testOne({Language=Deutsch, Course Name=Language Learning, Level=Beginner, Browser=firefox})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Multiple_Test_Suites" title="testScenario.courseTest" hash-for-method="testOne({Language=Português, Course Name=Language Learning, Level=Intermediate, Browser=opera})">testOne({Language=Português, Course Name=Language Learning, Level=Intermediate, Browser=opera})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Multiple_Test_Suites -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Multiple_Test_Suites" class="panel Multiple_Test_Suites">
+          <div class="suite-Multiple_Test_Suites-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScenario.FormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestOne({Company size=1–199, First Name=sunit , Phone=, Work Email=asdf@kiit.com, Company Name=czt, Job Titl...)">
+                  </a> <!-- TestOne({Company size=1–199, First Name=sunit , Phone=, Work Email=asdf@kiit.com, Company Name=czt, Job Titl...) -->
+                  <span class="method-name">TestOne</span>
+                  <span class="parameters">({Company size=1–199, First Name=sunit , Phone=, Work Email=asdf@kiit.com, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=sinha, people=Just myself})</span>
+                  <div class="stack-trace">java.lang.AssertionError: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: chrome=86.0.4240.111)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7H3VE7A9&apos;, ip: &apos;192.168.29.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\SUNITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:15388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9cff22605d94e26e51f4336d906...}
+Session ID: 9cff22605d94e26e51f4336d9061d765
+*** Element info: {Using=xpath, value=//input[@name=&apos;FirstName&apos;]}
+	at Hackathon.identifyCourse.baseUI.reportFail(baseUI.java:464)
+	at Hackathon.identifyCourse.baseUI.getElement(baseUI.java:411)
+	at Hackathon.identifyCourse.baseUI.enterText(baseUI.java:208)
+	at testScenario.FormTest.TestOne(FormTest.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Multiple_Test_Suites-class-failed -->
+          <div class="suite-Multiple_Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenario.courseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Türkçe, Course Name=Language Learning, Level=All Levels, Browser=chrome})">
+                  </a> <!-- testOne({Language=Türkçe, Course Name=Language Learning, Level=All Levels, Browser=chrome}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Türkçe, Course Name=Language Learning, Level=All Levels, Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=English, Course Name=Language Learning, Level=Expert, Browser=chrome})">
+                  </a> <!-- testOne({Language=English, Course Name=Language Learning, Level=Expert, Browser=chrome}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=English, Course Name=Language Learning, Level=Expert, Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Español, Course Name=Language Learning, Level=Intermediate, Browser=opera})">
+                  </a> <!-- testOne({Language=Español, Course Name=Language Learning, Level=Intermediate, Browser=opera}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Español, Course Name=Language Learning, Level=Intermediate, Browser=opera})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Deutsch, Course Name=Language Learning, Level=Intermediate, Browser=opera})">
+                  </a> <!-- testOne({Language=Deutsch, Course Name=Language Learning, Level=Intermediate, Browser=opera}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Deutsch, Course Name=Language Learning, Level=Intermediate, Browser=opera})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Español, Course Name=Language Learning, Level=Expert, Browser=chrome})">
+                  </a> <!-- testOne({Language=Español, Course Name=Language Learning, Level=Expert, Browser=chrome}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Español, Course Name=Language Learning, Level=Expert, Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=English, Course Name=Language Learning, Level=Intermediate, Browser=opera})">
+                  </a> <!-- testOne({Language=English, Course Name=Language Learning, Level=Intermediate, Browser=opera}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=English, Course Name=Language Learning, Level=Intermediate, Browser=opera})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=English, Course Name=Language Learning, Level=All Levels, Browser=opera})">
+                  </a> <!-- testOne({Language=English, Course Name=Language Learning, Level=All Levels, Browser=opera}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=English, Course Name=Language Learning, Level=All Levels, Browser=opera})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Español, Course Name=Language Learning, Level=All Levels, Browser=chrome})">
+                  </a> <!-- testOne({Language=Español, Course Name=Language Learning, Level=All Levels, Browser=chrome}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Español, Course Name=Language Learning, Level=All Levels, Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Português, Course Name=Language Learning, Level=All Levels, Browser=chrome})">
+                  </a> <!-- testOne({Language=Português, Course Name=Language Learning, Level=All Levels, Browser=chrome}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Português, Course Name=Language Learning, Level=All Levels, Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Português, Course Name=Language Learning, Level=Beginner, Browser=firefox})">
+                  </a> <!-- testOne({Language=Português, Course Name=Language Learning, Level=Beginner, Browser=firefox}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Português, Course Name=Language Learning, Level=Beginner, Browser=firefox})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Español, Course Name=Language Learning, Level=Beginner, Browser=firefox})">
+                  </a> <!-- testOne({Language=Español, Course Name=Language Learning, Level=Beginner, Browser=firefox}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Español, Course Name=Language Learning, Level=Beginner, Browser=firefox})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Türkçe, Course Name=Language Learning, Level=Expert, Browser=chrome})">
+                  </a> <!-- testOne({Language=Türkçe, Course Name=Language Learning, Level=Expert, Browser=chrome}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Türkçe, Course Name=Language Learning, Level=Expert, Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Português, Course Name=Language Learning, Level=Expert, Browser=chrome})">
+                  </a> <!-- testOne({Language=Português, Course Name=Language Learning, Level=Expert, Browser=chrome}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Português, Course Name=Language Learning, Level=Expert, Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=English, Course Name=Language Learning, Level=Beginner, Browser=firefox})">
+                  </a> <!-- testOne({Language=English, Course Name=Language Learning, Level=Beginner, Browser=firefox}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=English, Course Name=Language Learning, Level=Beginner, Browser=firefox})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Deutsch, Course Name=Language Learning, Level=Beginner, Browser=firefox})">
+                  </a> <!-- testOne({Language=Deutsch, Course Name=Language Learning, Level=Beginner, Browser=firefox}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Deutsch, Course Name=Language Learning, Level=Beginner, Browser=firefox})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Language=Português, Course Name=Language Learning, Level=Intermediate, Browser=opera})">
+                  </a> <!-- testOne({Language=Português, Course Name=Language Learning, Level=Intermediate, Browser=opera}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Language=Português, Course Name=Language Learning, Level=Intermediate, Browser=opera})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Multiple_Test_Suites-class-passed -->
+          <div class="suite-Multiple_Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenario.WebDevelopment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Course Name=Web Design, Browser=opera})">
+                  </a> <!-- testOne({Course Name=Web Design, Browser=opera}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Course Name=Web Design, Browser=opera})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne({Course Name=Web Development, Browser=firefox})">
+                  </a> <!-- testOne({Course Name=Web Development, Browser=firefox}) -->
+                  <span class="method-name">testOne</span>
+                  <span class="parameters">({Course Name=Web Development, Browser=firefox})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Multiple_Test_Suites-class-passed -->
+          <div class="suite-Multiple_Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenario.FormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestOne({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt...)">
+                  </a> <!-- TestOne({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt...) -->
+                  <span class="method-name">TestOne</span>
+                  <span class="parameters">({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=, people=Just myself})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestOne({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=, Company Name=czt, Job Title=a...)">
+                  </a> <!-- TestOne({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=, Company Name=czt, Job Title=a...) -->
+                  <span class="method-name">TestOne</span>
+                  <span class="parameters">({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=sinha, people=Just myself})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestOne({Company size=1–199, First Name=, Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job ...)">
+                  </a> <!-- TestOne({Company size=1–199, First Name=, Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job ...) -->
+                  <span class="method-name">TestOne</span>
+                  <span class="parameters">({Company size=1–199, First Name=, Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job Title=analyst, Browser=chrome, Last Name=sinha, people=Just myself})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Multiple_Test_Suites-class-passed -->
+        </div> <!-- panel Multiple_Test_Suites -->
+        <div panel-name="test-xml-Multiple_Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Sunit Sinha\eclipse-workspace\identifyCourse\MultiRun.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Multiple Test Suites&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; verbose=&quot;0&quot; name=&quot;Test Node1&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScenario.FormTest&quot;/&gt;
+      &lt;class name=&quot;testScenario.WebDevelopment&quot;/&gt;
+      &lt;class name=&quot;testScenario.courseTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Node1 --&gt;
+&lt;/suite&gt; &lt;!-- Multiple Test Suites --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Multiple_Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Multiple Test Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Node1 (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Multiple_Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Multiple Test Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Multiple_Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Multiple Test Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Multiple_Test_Suites');
+function tableData_Multiple_Test_Suites() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestOne')
+data.setCell(0, 2, 'testScenario.FormTest')
+data.setCell(0, 3, 73934);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestOne')
+data.setCell(1, 2, 'testScenario.FormTest')
+data.setCell(1, 3, 38340);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestOne')
+data.setCell(2, 2, 'testScenario.FormTest')
+data.setCell(2, 3, 38300);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testOne')
+data.setCell(3, 2, 'testScenario.WebDevelopment')
+data.setCell(3, 3, 36946);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestOne')
+data.setCell(4, 2, 'testScenario.FormTest')
+data.setCell(4, 3, 36603);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testOne')
+data.setCell(5, 2, 'testScenario.courseTest')
+data.setCell(5, 3, 35730);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testOne')
+data.setCell(6, 2, 'testScenario.courseTest')
+data.setCell(6, 3, 34892);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testOne')
+data.setCell(7, 2, 'testScenario.courseTest')
+data.setCell(7, 3, 34544);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testOne')
+data.setCell(8, 2, 'testScenario.WebDevelopment')
+data.setCell(8, 3, 32982);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testOne')
+data.setCell(9, 2, 'testScenario.courseTest')
+data.setCell(9, 3, 32942);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testOne')
+data.setCell(10, 2, 'testScenario.courseTest')
+data.setCell(10, 3, 32051);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testOne')
+data.setCell(11, 2, 'testScenario.courseTest')
+data.setCell(11, 3, 31845);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testOne')
+data.setCell(12, 2, 'testScenario.courseTest')
+data.setCell(12, 3, 31819);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testOne')
+data.setCell(13, 2, 'testScenario.courseTest')
+data.setCell(13, 3, 31732);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testOne')
+data.setCell(14, 2, 'testScenario.courseTest')
+data.setCell(14, 3, 31658);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testOne')
+data.setCell(15, 2, 'testScenario.courseTest')
+data.setCell(15, 3, 31589);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testOne')
+data.setCell(16, 2, 'testScenario.courseTest')
+data.setCell(16, 3, 31582);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testOne')
+data.setCell(17, 2, 'testScenario.courseTest')
+data.setCell(17, 3, 31509);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testOne')
+data.setCell(18, 2, 'testScenario.courseTest')
+data.setCell(18, 3, 31107);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testOne')
+data.setCell(19, 2, 'testScenario.courseTest')
+data.setCell(19, 3, 30733);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testOne')
+data.setCell(20, 2, 'testScenario.courseTest')
+data.setCell(20, 3, 30252);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testOne')
+data.setCell(21, 2, 'testScenario.courseTest')
+data.setCell(21, 3, 30230);
+window.suiteTableData['Multiple_Test_Suites']= { tableData: data, tableDiv: 'times-div-Multiple_Test_Suites'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 minutes</span>
+              <div id="times-div-Multiple_Test_Suites">
+              </div> <!-- times-div-Multiple_Test_Suites -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Multiple_Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Multiple Test Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Multiple_Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Multiple_Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.courseTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=English, Course Name=Language Learning, Level=All Levels, Browser=opera})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.FormTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestOne({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=, Company Name=czt, Job Title=a...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.WebDevelopment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOne({Course Name=Web Development, Browser=firefox})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.courseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">35733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Español, Course Name=Language Learning, Level=All Levels, Browser=chrome})</span>
+                <span class="method-start">35734 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.WebDevelopment</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">36946 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Course Name=Web Design, Browser=opera})</span>
+                <span class="method-start">36946 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.FormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">38302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestOne({Company size=1–199, First Name=sunit , Phone=, Work Email=asdf@kiit.com, Company Name=czt, Job Titl...)</span>
+                <span class="method-start">38303 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.courseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">67323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Português, Course Name=Language Learning, Level=All Levels, Browser=chrome})</span>
+                <span class="method-start">67324 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.WebDevelopment</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">69928 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.courseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">99056 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Türkçe, Course Name=Language Learning, Level=All Levels, Browser=chrome})</span>
+                <span class="method-start">99057 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.FormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">112242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestOne({Company size=1–199, First Name=, Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt, Job ...)</span>
+                <span class="method-start">112242 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.courseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">130877 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=English, Course Name=Language Learning, Level=Beginner, Browser=firefox})</span>
+                <span class="method-start">130878 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.FormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">150585 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestOne({Company size=1–199, First Name=sunit , Phone=8987462854, Work Email=asdf@kiit.com, Company Name=czt...)</span>
+                <span class="method-start">150586 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.courseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">165770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Español, Course Name=Language Learning, Level=Beginner, Browser=firefox})</span>
+                <span class="method-start">165771 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.FormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">187190 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.courseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">200315 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Português, Course Name=Language Learning, Level=Beginner, Browser=firefox})</span>
+                <span class="method-start">200315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">231825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Deutsch, Course Name=Language Learning, Level=Beginner, Browser=firefox})</span>
+                <span class="method-start">231825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">263484 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=English, Course Name=Language Learning, Level=Intermediate, Browser=opera})</span>
+                <span class="method-start">263484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">293737 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Español, Course Name=Language Learning, Level=Intermediate, Browser=opera})</span>
+                <span class="method-start">293737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">324470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Português, Course Name=Language Learning, Level=Intermediate, Browser=opera})</span>
+                <span class="method-start">324471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">355578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Deutsch, Course Name=Language Learning, Level=Intermediate, Browser=opera})</span>
+                <span class="method-start">355578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">385809 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=English, Course Name=Language Learning, Level=Expert, Browser=chrome})</span>
+                <span class="method-start">385809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">417861 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Español, Course Name=Language Learning, Level=Expert, Browser=chrome})</span>
+                <span class="method-start">417861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">449707 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Português, Course Name=Language Learning, Level=Expert, Browser=chrome})</span>
+                <span class="method-start">449707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">481289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testOne({Language=Türkçe, Course Name=Language Learning, Level=Expert, Browser=chrome})</span>
+                <span class="method-start">481290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">514233 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.FormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">514234 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.WebDevelopment</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">514484 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.courseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">514530 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
